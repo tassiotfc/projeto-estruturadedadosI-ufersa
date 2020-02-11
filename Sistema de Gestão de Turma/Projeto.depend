@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1479913314 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+
+1479826382 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.h
+
+1479919668 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+	"interacao.h"
+
+1479780187 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.h
+
+1479918831 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"leitura.h"
+	"interacao.h"
+	"aluno.h"
+
+1479864643 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.h
+	"interacao.h"
+	"aluno.h"
+
+1479913247 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aluno.h"
+	"turma.h"
+	"interacao.h"
+	"leitura.h"
+
+1479912936 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\turma.h
+	"aluno.h"
+
+1479912973 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i\3° unidade\projeto\projeto est dados - versao final\projeto\turma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+	"turma.h"
+
+1479913314 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+
+1479826382 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.h
+
+1479919668 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+	"interacao.h"
+
+1479780187 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.h
+
+1479918831 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"leitura.h"
+	"interacao.h"
+	"aluno.h"
+
+1479864643 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.h
+	"interacao.h"
+	"aluno.h"
+
+1479913247 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aluno.h"
+	"turma.h"
+	"interacao.h"
+	"leitura.h"
+
+1479912936 c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\turma.h
+	"aluno.h"
+
+1479912973 source:c:\users\ctf\google drive\bti\ensino\2° semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\turma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+	"turma.h"
+
+1479913314 source:c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+
+1479826382 c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\aluno.h
+
+1580655161 source:c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+	"interacao.h"
+
+1479780187 c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\interacao.h
+
+1479918831 source:c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"leitura.h"
+	"interacao.h"
+	"aluno.h"
+
+1479864643 c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\leitura.h
+	"interacao.h"
+	"aluno.h"
+
+1580654251 source:c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aluno.h"
+	"turma.h"
+	"interacao.h"
+	"leitura.h"
+
+1479912936 c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\turma.h
+	"aluno.h"
+
+1479912973 source:c:\users\tassio\google drive\bti\ensino\2º semestre\lab. de alg e algoritmos e estruturas de dados i - thiago rique\3° unidade\projeto\projeto est dados - versao final\projeto\turma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aluno.h"
+	"turma.h"
+

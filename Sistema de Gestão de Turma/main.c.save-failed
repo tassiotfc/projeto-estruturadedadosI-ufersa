@@ -1,0 +1,120 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "aluno.h"
+#include "turma.h"
+#include "interacao.h"
+#include "leitura.h"
+
+#define TITULO_OPCAO1 "Adicionar um aluno na turma"
+#define TITULO_OPCAO2 "Remover um aluno da turma"
+#define TITULO_OPCAO3 "Modificar um registro de aluno"
+#define TITULO_OPCAO4 "Listar todos os alunos da turma"
+#define TITULO_OPCAO5 "Imprimir a média da turma"
+#define TITULO_OPCAO6 "Sair do programa"
+
+#define N_OPCOES 6
+#define OPCAO1 '1'
+#define OPCAO2 '2'
+#define OPCAO3 '3'
+#define OPCAO4 '4'
+#define OPCAO5 '5'
+#define OPCAO6 '6'
+
+int main()
+{
+    unsigned char op;
+	unsigned int saida=0;
+	char* nome;
+	char* mat;
+    float n1,n2,n3;
+    int voltar;
+    Turma turma;
+    Aluno* aluno;
+    No* aluno_busca;
+    FILE* fp;
+
+    fp = fopen("dados.txt","rt");
+    if(fp == NULL){
+        printf("Erro ao abrir arquivo!\n");
+        exit(1);
+    }
+    turma = turma_carrega(fp);
+    apresenta_programa("Cadastro de Aluno [versao 1.0]. Copyright (c) 2016");
+    apresenta_programa("Desenvolvido por: Tassio F.C. Todos os direitos reservados.");
+	do{
+		printf("\n\t\t\tMENU\n");
+		apresenta_menu(N_OPCOES, OPCAO1,
+					  TITULO_OPCAO1,TITULO_OPCAO2,
+					  TITULO_OPCAO3,TITULO_OPCAO4,
+					  TITULO_OPCAO5,TITULO_OPCAO6);
+		op=le_opcao(OPCAO1, OPCAO1+N_OPCOES-1);
+		limpa_tela();
+		switch(op){
+			case OPCAO1:
+			    printf("ADICONANDO UM ALUNO NA TURMA\n");
+			    nome = le_nome();
+			    mat = le_matricula();
+			    n1 = le_nota();
+                n2 = le_nota();
+                n3 = le_nota();
+                aluno = aluno_cria(nome,mat,n1,n2,n3);
+                turma = turma_insere(turma,aluno);
+                printf("\nVOLTAR AO MENU - DIGITE QUALQUER TECLA\n");
+                getch(voltar);
+                limpa_tela();
+				break;
+			case OPCAO2:
+			    mat = le_matricula();
+			    turma = turma_remove(turma,mat);
+				limpa_buffer();
+				printf("\nVOLTAR AO MENU - DIGITE QUALQUER TECLA\n");
+                getch(voltar);
+                limpa_tela();
+				break;
+			case OPCAO3:
+			    mat = le_matricula();
+			    aluno_busca = turma_busca(turma,mat);
+			    if(aluno_busca == NULL){
+                    printf("MATRICULA NAO REGUSTRADA!\n");
+                }
+                else{
+                    nome = le_nome();
+                    n1 = le_nota();
+                    n2 = le_nota();
+                    n3 = le_nota();
+                    turma_edita(aluno_busca,nome,n1,n2,n3);
+                }
+				limpa_buffer();
+				printf("\nVOLTAR AO MENU - DIGITE QUALQUER TECLA\n");
+                getch(voltar);
+                limpa_tela();
+				break;
+			case OPCAO4:
+			    turma_imprime(turma);
+				printf("\nVOLTAR AO MENU - DIGITE QUALQUER TECLA\n");
+                getch(voltar);
+                limpa_buffer();
+                limpa_tela();
+				break;
+            case OPCAO5:
+                printf("MEDIA DA TURMA: %f",turma_media(turma));
+				printf("\nVOLTAR AO MENU - DIGITE QUALQUER TECLA\n");
+                getch(voltar);
+                limpa_buffer();
+                limpa_tela();
+				break;
+			case OPCAO6:
+				saida = 1;
+				printf("Obrigado por usar esse programa");
+				break;
+			default:
+				printf("Este programa possui um bug");
+				return 1;
+		}
+	}while(!saida);
+
+	fp = fopen("dados.txt","wt");
+	turma_salva(fp,turma);
+    return 0;
+}
