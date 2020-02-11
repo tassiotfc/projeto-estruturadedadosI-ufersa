@@ -33,6 +33,10 @@ Sistema de Gestão de Turma
 ## 💻 Projeto
 
 Uma descrição do projeto pode ser vista no [documento de especificação](Projeto_2016_1_LAED_I.pdf).
+<br>
+<br>
+Estrutura de dados utilizadas:
+- Lista encadeada
 
 ## :memo: Licença
 
